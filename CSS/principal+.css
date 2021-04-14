@@ -7,8 +7,26 @@
  
 }
 
-
-
+#cabecera h2{
+    background: #080000;
+    color:#fffdfd; 
+    position: relative;
+    top: 200px;
+    text-align: center;
+    font-family: inherit;
+    box-shadow:0px 0px 3px 3px #8c9091;
+    display: table;
+}
+#cabecera h3{
+    background: #080808;
+    position: relative;
+    top: 400px;
+    color:#ffffff; 
+    text-align: center;
+    font-family: inherit;
+    box-shadow:0px 0px 8px 3px #8c9091;
+    display: table;
+}
 /*EXTRA SMALL*/
 @media(min-width:576px){
     #cabecera h2{
