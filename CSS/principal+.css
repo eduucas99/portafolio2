@@ -8,24 +8,14 @@
 }
 
 
-#cabecera h2{
-    background: #080000;
-    color:#fffdfd; 
-    position: relative;
-    top: 200px;
-    text-align: center;
-    font-family: inherit;
-    width: 33%;
-    box-shadow:0px 0px 3px 3px #8c9091;
-    display: table;
-}
+
 /*EXTRA SMALL*/
-@media(max-width:576px){
+@media(min-width:576px){
     #cabecera h2{
         background: #080808;
         position: relative;
         top: 200px;
-        width: 75.5%;
+        width: 64%;
         color:#ffffff; 
         text-align: center;
         font-family: inherit;
@@ -34,12 +24,12 @@
 }
 
 /*SMALL*/
-@media(max-width:768px){
+@media(min-width:768px){
     #cabecera h2{
         background: #080808;
         position: relative;
         top: 200px;
-        width: 75.5%;
+        width: 58.5%;
         color:#ffffff; 
         text-align: center;
         font-family: inherit;
@@ -48,12 +38,12 @@
 }
 
 /*MEDIUM*/
-@media(max-width:992px){
+@media(min-width:992px){
     #cabecera h2{
         background: #080808;
         position: relative;
         top: 200px;
-        width: 78.5%;
+        width: 39%;
         color:#ffffff; 
         text-align: center;
         font-family: inherit;
@@ -61,19 +51,19 @@
     } 
 }
 
-/*lARGO*/
-@media(max-width:1200px){
+@media(min-width:1200px){
     #cabecera h2{
         background: #080808;
         position: relative;
-        top: 200PX;
-        width: 38.5%;
+        top: 200px;
+        width: 33%;
         color:#ffffff; 
         text-align: center;
         font-family: inherit;
         box-shadow:0px 0px 8px 3px #8c9091;
     } 
 }
+
 #cabecera h2 #spanh2{
     background: #000000;
     border-left:1px solid #fff;
@@ -88,25 +78,13 @@
     }
 }
 
-#cabecera h3{
-    background: #080808;
-    position: relative;
-    top: 400px;
-    width: 32%;
-    color:#ffffff; 
-    text-align: center;
-    font-family: inherit;
-    box-shadow:0px 0px 8px 3px #8c9091;
-    display: table;
-}
-
 /*EXTRA SMALL*/
-@media(max-width:576px){
+@media(min-width:576px){
     #cabecera h3{
         background: #080808;
         position: relative;
         top: 380px;
-        width: 75.5%;
+        width: 64%;
         color:#ffffff; 
         text-align: center;
         font-family: inherit;
@@ -115,12 +93,12 @@
 }
 
 /*SMALL*/
-@media(max-width:768px){
+@media(min-width:768px){
     #cabecera h3{
         background: #080808;
         position: relative;
         top: 380px;
-        width: 75.5%;
+        width: 57.5%;
         color:#ffffff; 
         text-align: center;
         font-family: inherit;
@@ -129,12 +107,12 @@
 }
 
 /*MEDIUM*/
-@media(max-width:992px){
+@media(min-width:992px){
     #cabecera h3{
         background: #080808;
         position: relative;
         top: 380PX;
-        width: 76.5%;
+        width: 38%;
         color:#ffffff; 
         text-align: center;
         font-family: inherit;
@@ -142,13 +120,12 @@
     } 
 }
 
-/*lARGO*/
-@media(max-width:1200px){
+@media(min-width:1200px){
     #cabecera h3{
         background: #080808;
         position: relative;
-        top: 380PX;
-        width: 38.5%;
+        top: 380px;
+        width: 33%;
         color:#ffffff; 
         text-align: center;
         font-family: inherit;
