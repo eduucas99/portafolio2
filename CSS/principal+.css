@@ -486,7 +486,7 @@ nav .navbar-toggler:active{
 .pie{
     background: rgb(191, 191, 191);
     position: relative;
-    top: 600px;
+    top: 500px;
     height:200px;
    /* border: outset 3px rgb(33, 137, 168);*/
 }
